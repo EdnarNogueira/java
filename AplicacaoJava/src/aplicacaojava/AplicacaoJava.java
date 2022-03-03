@@ -15,6 +15,9 @@ public class AplicacaoJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Pessoa p1 = new Pessoa();
+        p1.nome = "Ednar";
+        p1.Sobrenome = "Nogueira";
     }
     
 }
