@@ -13,12 +13,16 @@ public class Pessoa {
     String Sobrenome;
     int idade;
     float peso;
+    
+    public Pessoa(){ // Método Construtor
+        
+    }
 
-    public String getNome() {
+    public String getNome() { // Método acessor
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(String nome) { // Método modificador 
         this.nome = nome;
     }
 
